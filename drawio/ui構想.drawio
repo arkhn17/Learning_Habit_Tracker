@@ -1,71 +1,357 @@
 <mxfile host="65bd71144e">
-    <diagram id="04gcsO-vSwVj2xZ_8O_V" name="UI構想">
-        <mxGraphModel dx="718" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <diagram id="04gcsO-vSwVj2xZ_8O_V" name="１．UI構想">
+        <mxGraphModel dx="875" dy="541" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="Bp9G96VbEBx3eFq3nJVy-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="500" y="330" width="240" height="430" as="geometry"/>
+                <mxCell id="E9nOUlKsjoLZUrADOuD_-39" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;Learning Habit Tracker UI構想&lt;/b&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="144" y="18" width="540" height="63" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="20" y="740" width="320" height="250" as="geometry"/>
+                <mxCell id="E9nOUlKsjoLZUrADOuD_-40" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;１．トップページ&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・「今日の学習状況」を一目で確認できる&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・３つの主要アクション&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;①「今日の学習記録を追加」&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;②「振り返りを見る」&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;③「目標確認」&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・進捗状態を簡単にグラフorアイコンで表示&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;→達成度を可視化&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;・ハンバーガーメニューで各ページに素早く移動&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="72" y="306" width="684" height="234" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="20" y="240" width="320" height="250" as="geometry"/>
+                <mxCell id="E9nOUlKsjoLZUrADOuD_-42" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;２．学習記録ページ&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・「今日の学習内容」を新規登録できる&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px; background-color: transparent;&quot;&gt;①「学習項目（テキスト入力）」&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;②「所要時間（分単位で入力）」&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;③「気付き／感想（テキスト入力）」&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・過去の記録も編集／削除が可能&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;→タップ／クリックで記録詳細モーダルを開く&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;→編集フォーム／削除ボタン／保存ボタン&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="72" y="558" width="684" height="270" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;h1&gt;&lt;font style=&quot;color: rgb(77, 77, 77); font-size: 28px;&quot;&gt;トップページ&lt;br&gt;[Learning Habit Tracker]&lt;/font&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="10" y="10" width="340" height="90" as="geometry"/>
+                <mxCell id="E9nOUlKsjoLZUrADOuD_-44" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;３．カレンダー／振り返りページ&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・日ごとの学習量や達成度をカレンダー形式で表示&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・過去の記録を詳細閲覧（クリック表示）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・月ごと／週ごとに表示を切り替えられる&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;（統計も月ごと／週ごとに計測可能）&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="72" y="846" width="684" height="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;ボタン [新規学習記録]&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="110" width="280" height="100" as="geometry"/>
+                <mxCell id="E9nOUlKsjoLZUrADOuD_-45" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;４．目標設定ページ&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・学習目標を設定&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・進捗状況（目標達成率）の簡易グラフ表示&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・達成度のリマインド機能（任意）&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="72" y="1044" width="684" height="162" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;ページ[新規学習記録]&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="220" width="300" height="40" as="geometry"/>
+                <mxCell id="E9nOUlKsjoLZUrADOuD_-46" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;５．設定／ユーザー情報&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・ユーザー名／プロフィール編集&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・通知設定や配色の変更&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・データのエクスポート&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="72" y="1224" width="684" height="144" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム [日付入力]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="280" width="280" height="40" as="geometry"/>
+                <mxCell id="E9nOUlKsjoLZUrADOuD_-47" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ALL．全体共通要素&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・画面上部に固定ヘッダー&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;アプリ名／ハンバーガーメニュー&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;・下部に固定ナビゲーション&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;トップ／記録／振り返り／目標&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="72" y="1386" width="684" height="162" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;入力フォーム [&lt;/span&gt;学習内容入力]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="330" width="280" height="40" as="geometry"/>
+                <mxCell id="E9nOUlKsjoLZUrADOuD_-48" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;０．新規登録／ログイン ページ&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;・メールアドレス＆パスワード入力フォーム&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;・ログインボタン&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px; background-color: transparent;&quot;&gt;・新規登録ボタン→登録画面に遷移&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px; background-color: transparent;&quot;&gt;・パスワードを忘れた場合のリンク&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="72" y="108" width="684" height="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;入力フォーム [&lt;/span&gt;気付き入力]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="380" width="280" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="26" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;入力フォーム [&lt;/span&gt;目標進捗入力]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="430" width="280" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;ボタン [登録]&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="500" width="280" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="30" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;ボタン [トップページ]&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="610" width="280" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;ページ[トップページ]&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="720" width="300" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="36" value="&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;日付 | 内容 | 気付き | 目標進捗&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="780" width="280" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;テーブル[学習記録一覧]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="770" width="260" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" value="[トップページ] (長方形)&#xa;    ├─ 表示：[学習記録一覧（テーブル）] (長方形)&#xa;    │      └─ 日付 / 学習内容 / 気付き / 目標進捗 (小長方形で簡単に記載)&#xa;    ├─ セクション：[目標・達成状況] (長方形)&#xa;    │      └─ 目標名 / 達成率 / 進捗バー (小長方形で簡単に記載)&#xa;    ├─ ボタン：[新規学習記録] (ひし形) → [新規学習記録ページ]&#xa;&#xa;&#xa;[新規学習記録ページ] (長方形)&#xa;    ├─ 入力フォーム：[日付入力] (長方形)&#xa;    ├─ 入力フォーム：[学習内容入力] (長方形)&#xa;    ├─ 入力フォーム：[気付き入力] (長方形)&#xa;    ├─ 入力フォーム：[目標進捗入力] (長方形)&#xa;    ├─ ボタン：[登録] (ひし形) → トップページ&#xa;    └─ ボタン：[トップページ] (ひし形) → トップページ" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="10" width="410" height="240" as="geometry"/>
-                </mxCell>
-                <mxCell id="2NMxCDN0pcncZJpfqxcY-39" value="11/12 test" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="700" y="210" width="80" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="Bp9G96VbEBx3eFq3nJVy-39" value="Top Page&#xa; ├─ 簡易一覧（最新5件）&#xa; ├─ 目標・達成状況&#xa; └─ [新規登録] [一覧を見る]&#xa;&#xa;&#xa;Records Page（アーカイブ一覧）&#xa; ├─ すべての記録&#xa; └─ 行をクリック → Edit Page&#xa;&#xa;&#xa;Edit Page&#xa; ├─ 既存データの編集&#xa; ├─ [更新]&#xa; ├─ [削除]&#xa; └─ [戻る]&#xa;&#xa;&#xa;New Record Page&#xa; ├─ 新規データ入力&#xa; └─ [登録] [戻る]" style="text;whiteSpace=wrap;fontSize=15;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="510" y="340" width="220" height="330" as="geometry"/>
-                </mxCell>
-                <mxCell id="Bp9G96VbEBx3eFq3nJVy-41" value="11/14" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="510" y="300" width="50" height="30" as="geometry"/>
+                <mxCell id="9vcoKwn4GdpT0owtP-sw-1" value="11/17" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="684" y="54" width="54" height="27" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="IYTgnPNhEnDXd-kvsFkH" name="画面遷移図">
-        <mxGraphModel dx="718" dy="541" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <diagram name="２．画面遷移図" id="Y6SmTIdjsBZqxDXbcUv5">
+        <mxGraphModel dx="875" dy="541" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="7epfC_u378TQVlsX-LNO-0"/>
+                <mxCell id="7epfC_u378TQVlsX-LNO-1" parent="7epfC_u378TQVlsX-LNO-0"/>
+                <mxCell id="7epfC_u378TQVlsX-LNO-27" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;Learning Habit Tracker 画面遷移図&lt;/b&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="7epfC_u378TQVlsX-LNO-1" vertex="1">
+                    <mxGeometry x="144" y="17" width="540" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="-GPQI4xtN_qyWKGNVV2S-0" value="11/17(ラフ&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
+                    <mxGeometry x="684" y="53" width="81" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="FKvkI36Z5GyrGwXsaOOh-0" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;１．トップページ&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ 「今日の学習記録を追加」 → 2. 学習記録ページ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ 「振り返りを見る」 → 3. カレンダー／振り返りページ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ 「目標確認」 → 4. 目標設定ページ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;└─ ハンバーガーメニュー／下部ナビゲーションで各ページへ移動&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├─ 2. 学習記録ページ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├─ 3. カレンダー／振り返りページ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├─ 4. 目標設定ページ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└─ 5. 設定／ユーザー情報&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
+                    <mxGeometry x="72" y="305" width="684" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="FKvkI36Z5GyrGwXsaOOh-1" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;2. 学習記録ページ&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ 新規登録 → 記録保存（同画面）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ 過去記録一覧&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;│&amp;nbsp; &amp;nbsp; └─ 記録タップ → 記録詳細モーダル&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├─ 編集（同モーダル内）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└─ 削除（確認ダイアログ）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;└─ 下部ナビ／メニュー → 他ページへ遷移&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
+                    <mxGeometry x="72" y="593" width="684" height="199" as="geometry"/>
+                </mxCell>
+                <mxCell id="FKvkI36Z5GyrGwXsaOOh-2" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;3. カレンダー／振り返りページ&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ 過去記録クリック → 詳細表示ポップアップ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ 表示切替（週／月）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;└─ 下部ナビゲーション／ハンバーガーで各ページへ移動&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
+                    <mxGeometry x="72" y="810" width="684" height="161" as="geometry"/>
+                </mxCell>
+                <mxCell id="FKvkI36Z5GyrGwXsaOOh-3" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;4. 目標設定ページ&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;├─ 目標追加／編集&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ 進捗グラフ確認&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;└─ 下部ナビゲーション／ハンバーガーで各ページへ移動&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
+                    <mxGeometry x="72" y="990" width="684" height="144" as="geometry"/>
+                </mxCell>
+                <mxCell id="FKvkI36Z5GyrGwXsaOOh-4" value="&lt;div&gt;&lt;b style=&quot;color: rgb(63, 63, 63); font-size: 20px; background-color: transparent;&quot;&gt;5. 設定／ユーザー情報&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ プロフィール編集&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ 通知設定や配色変更&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ データエクスポート&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;└─ 下部ナビゲーション／ハンバーガーで各ページへ移動&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
+                    <mxGeometry x="72" y="1152" width="684" height="162" as="geometry"/>
+                </mxCell>
+                <mxCell id="FKvkI36Z5GyrGwXsaOOh-6" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;0. 新規登録／ログイン&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;├─ ログイン成功 → 1. トップページ（ダッシュボード）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;└─ 新規登録ボタン → 登録画面&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└─ 登録完了 → 1. トップページ&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
+                    <mxGeometry x="72" y="107" width="684" height="180" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="３．ワイヤーフレーム" id="26W2ai-A06YxMU9y8_2e">
+        <mxGraphModel dx="875" dy="541" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="uhNlgwCyZQxp5CcIoFXW-0"/>
+                <mxCell id="uhNlgwCyZQxp5CcIoFXW-1" parent="uhNlgwCyZQxp5CcIoFXW-0"/>
+                <mxCell id="uhNlgwCyZQxp5CcIoFXW-27" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;Learning Habit Tracker 画面遷移図&lt;/b&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="144" y="18" width="540" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="iPhWiec_g5FYC9JFmK1B-0" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;メールアドレス ［__________］&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;パスワード&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;［__________］&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;[ログイン] ボタン&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;[新規登録] ボタン&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;[パスワード忘れ] リンク&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="198" width="576" height="234" as="geometry"/>
+                </mxCell>
+                <mxCell id="iPhWiec_g5FYC9JFmK1B-1" value="11/17" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="684" y="54" width="54" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="oK3pEqk574-NiZqWZg3b-1" value="0. 新規登録／ログイン画面" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="108" width="153" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="oK3pEqk574-NiZqWZg3b-2" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Learning Habit Tracker&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="144" width="576" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="oK3pEqk574-NiZqWZg3b-3" value="←アプリ名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="612" y="157.5" width="81" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="oK3pEqk574-NiZqWZg3b-4" value="メールアドレス：入力フォーム&lt;div&gt;パスワード：入力フォーム&lt;/div&gt;&lt;div&gt;ログイン：ボタン&lt;/div&gt;&lt;div&gt;新規登録：ボタン&lt;/div&gt;&lt;div&gt;パスワード忘れ：リンク&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="616.5" y="288" width="189" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="oK3pEqk574-NiZqWZg3b-7" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="540" width="576" height="198" as="geometry"/>
+                </mxCell>
+                <mxCell id="oK3pEqk574-NiZqWZg3b-8" value="１．トップページ（ダッシュボード）" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="450" width="216" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="oK3pEqk574-NiZqWZg3b-9" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;ヘッダー&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="486" width="576" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="549" y="486" width="63" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;____&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap;&quot;&gt;____&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap;&quot;&gt;____&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="558" y="479" width="45" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;下部ナビゲーション：トップ／記録／振り返り／目標&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="738" width="576" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-9" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="900" width="576" height="504" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-10" value="２．学習記録ページ" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="810" width="216" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-11" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;ヘッダー&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="846" width="576" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="549" y="846" width="63" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-13" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;____&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap;&quot;&gt;____&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap;&quot;&gt;____&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="558" y="839" width="45" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-14" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;下部ナビゲーション：トップ／記録／振り返り／目標&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="1404" width="576" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-15" value="ヘッダー：アプリ名&lt;div&gt;＆ハンバーガーメニュー&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="616.5" y="490.5" width="153" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-17" value="ヘッダー：「学習記録&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;」&lt;/span&gt;&lt;div&gt;&lt;div&gt;＆ハンバーガーメニュー&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="616.5" y="850.5" width="153" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4cbaXIgjG8IhgtN2377-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;学習項目：[ __________ ]&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;所要時間（分）：[ ___ ]&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;気付き／感想：[ __________ ]&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="72" y="936" width="504" height="81" as="geometry"/>
+                </mxCell>
+                <mxCell id="py0IFIMfY8bSiyVqvN-N-0" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;新規記録&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="275" y="900" width="99" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="moZswKAMduX81k8oPnbq-1" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;◎今日の学習状況&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;・達成度 バーorサークル 表示&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;・今日の記録 簡易表示（項目・時間）&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="72" y="546" width="504" height="76" as="geometry"/>
+                </mxCell>
+                <mxCell id="moZswKAMduX81k8oPnbq-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;[学習を追加] ボタン(大きめ)&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;[振り返り] ボタン&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;[目標を確認] ボタン&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="72" y="630" width="504" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="moZswKAMduX81k8oPnbq-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;[保存] ボタン&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="258.75" y="1026" width="131.5" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="moZswKAMduX81k8oPnbq-4" value="" style="endArrow=none;dashed=1;html=1;exitX=0.003;exitY=0.362;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uhNlgwCyZQxp5CcIoFXW-1" source="Y4cbaXIgjG8IhgtN2377-9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="299" y="1121" as="sourcePoint"/>
+                        <mxPoint x="613" y="1080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="moZswKAMduX81k8oPnbq-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;記録一覧&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="274.5" y="1089" width="99" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="moZswKAMduX81k8oPnbq-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;学習項目：Java&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;時間：50分&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;日付：2025/11/17&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="108" y="1128" width="432" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="xrxBFh-NPRcVeUgI2UzC-0" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;学習項目：SQL&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;時間：35分&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;日付：2025/11/16&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="108" y="1260" width="432" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="xrxBFh-NPRcVeUgI2UzC-1" value="詳細" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="486" y="1179" width="45" height="44.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="xrxBFh-NPRcVeUgI2UzC-2" value="詳細" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="486" y="1314" width="45" height="44.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="xrxBFh-NPRcVeUgI2UzC-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;学習項目：[ _____ ]（編集可能入力欄）&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;所要時間（分）：[ __ ]（編集可能入力欄）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;気付き／感想 ：[ _____ ]（編集可能入力欄）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;[ 保存する ] ボタン&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;[ 削除する ] ボタン&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="72" y="1512" width="504" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="xrxBFh-NPRcVeUgI2UzC-6" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;２．学習記録ページ [モーダル]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="1476" width="171" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="xrxBFh-NPRcVeUgI2UzC-7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;２．学習記録ページ&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;→記録一覧→タップで編集可能&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="594" y="1512" width="171" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="xrxBFh-NPRcVeUgI2UzC-8" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36.5" y="1890" width="574" height="612" as="geometry"/>
+                </mxCell>
+                <mxCell id="xrxBFh-NPRcVeUgI2UzC-9" value="３．カレンダー／振り返り ページ" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36.5" y="1809" width="251.5" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="xrxBFh-NPRcVeUgI2UzC-10" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;ヘッダー&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36.5" y="1836" width="574" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="554" y="1836" width="56.5" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;____&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap;&quot;&gt;____&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap;&quot;&gt;____&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="559" y="1831" width="45" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;下部ナビゲーション：トップ／記録／振り返り／目標&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36.5" y="2502" width="574" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-12" value="ヘッダー：「振り返り」&lt;br&gt;＆ハンバーガーメニュー" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="624" y="1836" width="153" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-13" value="[詳細]クリック&lt;div&gt;→記録詳細[モーダル]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="634.5" y="1202" width="135" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;[ 月表示／週表示 ] 切り替えタブ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="170" y="1899" width="306" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-17" value="&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;カレンダー&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: nowrap;&quot;&gt;&lt;div style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap; color: rgb(63, 63, 63);&quot;&gt;&lt;font style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;&amp;nbsp;[▲]　[ ２０２５年 １１月 ]　[▼]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="106" y="1935" width="432" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;■ = 学習アリ&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;□ = 学習ナシ&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="106.5" y="1994" width="432" height="228" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-23" value="日付 →タップで記録一覧[モーダル]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="607.5" y="2018" width="216" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-24" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;学習合計時間の簡易グラフ&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="106" y="2243" width="432" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-25" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;棒グラフ or 折れ線グラフ&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="106" y="2303" width="432" height="181" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-26" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;■目標１&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;現在の達成率：〇〇％&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;■目標２&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;現在の達成率：&lt;/font&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px; background-color: transparent;&quot;&gt;〇〇％&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;div style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px; color: rgb(63, 63, 63);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px; color: rgb(63, 63, 63);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px; color: rgb(63, 63, 63);&quot;&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 12px;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px; color: rgb(63, 63, 63);&quot;&gt;■目標３&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 12px;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px; color: rgb(63, 63, 63);&quot;&gt;現在の達成率：&lt;/font&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px; background-color: transparent;&quot;&gt;〇〇％&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="37.5" y="3042" width="574" height="612" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-27" value="４．目標設定ページ" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="37.5" y="2961" width="251.5" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-28" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;ヘッダー&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="37.5" y="2988" width="574" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="555" y="2988" width="56.5" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-30" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;____&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap;&quot;&gt;____&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap;&quot;&gt;____&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="560" y="2983" width="45" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="R2S6njs33OXfDPRjI4C_-31" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;下部ナビゲーション：トップ／記録／振り返り／目標&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="37.5" y="3654" width="574" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-2" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;２０２５年 １１月１７日&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;■記録１&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;学習項目：Java&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;時間：50分&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;■記録２&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;学習項目：---&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;時間：--分&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="72" y="2610" width="503" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;３．カレンダー／振り返りページ [モーダル]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="2574" width="279" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;３．カレンダー／振り返りページ&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;→日付→[詳細]クリック&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(251, 251, 251), rgb(21, 21, 21));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: rgb(251, 251, 251); float: none; display: inline !important; color: rgb(0, 0, 0);&quot;&gt;３．カレンダー／振り返りページ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;　 [モーダル]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;→詳細確認＆編集&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="594" y="2610" width="216" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-6" value="詳細" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="520.5" y="2722.75" width="45" height="44.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-7" value="詳細" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="520.5" y="2826" width="45" height="44.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-8" value="" style="endArrow=none;dashed=1;html=1;entryX=0.997;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.006;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uhNlgwCyZQxp5CcIoFXW-1" source="8Wp4EfWUS68o90KiLAru-2" target="8Wp4EfWUS68o90KiLAru-2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="476" y="2777" as="sourcePoint"/>
+                        <mxPoint x="526" y="2727" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-11" value="" style="endArrow=none;dashed=1;html=1;entryX=0.997;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.006;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="74.5" y="2674" as="sourcePoint"/>
+                        <mxPoint x="572.5" y="2673" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;[ + 新規追加 ]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="72" y="2880" width="503" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-13" value="ヘッダー：「目標」&lt;br&gt;＆ハンバーガーメニュー" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="634.5" y="2983" width="153" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-17" value="&lt;div data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(63, 63, 63)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(63, 63, 63), rgb(183, 183, 183)); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(63, 63, 63)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(63, 63, 63), rgb(183, 183, 183)); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;[ 目標 ] テキスト入力欄&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(63, 63, 63)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(63, 63, 63), rgb(183, 183, 183)); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;[ 週／月 の 目標学習時間 ] 入力欄&lt;/font&gt;&lt;/div&gt;&lt;div data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(63, 63, 63)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(63, 63, 63), rgb(183, 183, 183)); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(63, 63, 63)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(63, 63, 63), rgb(183, 183, 183)); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 20px;&quot;&gt;[ 保存 ] ボタン&lt;/font&gt;&lt;/div&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="157" y="3069" width="333" height="108" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-18" value="" style="endArrow=none;dashed=1;html=1;exitX=-0.003;exitY=0.204;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="35.77800000000002" y="3166.848" as="sourcePoint"/>
+                        <mxPoint x="613" y="3167" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-19" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px;&quot;&gt;達成度バー表示&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="180" y="3301" width="288" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-20" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px;&quot;&gt;達成度バー表示&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="181" y="3420" width="288" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-21" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px;&quot;&gt;達成度バー表示&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="181" y="3546" width="288" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-23" value="詳細" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="493.5" y="3283.5" width="45" height="44.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-24" value="詳細" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="493.5" y="3402.5" width="45" height="44.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-25" value="詳細" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="493" y="3528.5" width="45" height="44.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-26" value="４．目標設定ページ&lt;div&gt;→[詳細]クリック&lt;/div&gt;&lt;div&gt;→[目標編集]モーダル&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="625.5" y="3168" width="135" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-27" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;目標名：[ _____ ]（編集可能）&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;目標学習時間（分）：[ _____ ]　（編集可能）&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="72" y="3762" width="503" height="162" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-28" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;４．目標設定ページ [モーダル]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36" y="3726" width="279" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-29" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;４．目標設定ページ&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;→[詳細]クリック&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;→４．目標設定ページ [モーダル]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;→詳細確認／編集／削除&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="594" y="3762" width="207" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-34" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;[ 保存 ]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="72" y="3924" width="503" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-40" value="削除" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="515" y="3928.75" width="45" height="44.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-41" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ユーザー名：[ _____ ] （表示＆編集可能）&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;通知設定：ON ／OFF （スイッチ）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;配色テーマ変更：（選択肢用意）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;データエクスポート：YES （押すとデータエクスポート）&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36.5" y="4086" width="576" height="197" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-42" value="５．設定ページ" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="37.5" y="3996" width="216" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-43" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;ヘッダー&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="36.5" y="4032" width="576" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="549.5" y="4032" width="63" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-45" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;____&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap;&quot;&gt;____&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: wrap;&quot;&gt;____&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="559.5" y="4025" width="45" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-46" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;下部ナビゲーション：トップ／記録／振り返り／目標&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="37" y="4283" width="575" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-47" value="ヘッダー：「設定&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;」&lt;/span&gt;&lt;div&gt;&lt;div&gt;＆ハンバーガーメニュー&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="618" y="4036.5" width="153" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-58" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;×&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="540" y="3774" width="24" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-59" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;×&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="540" y="2619" width="24" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="8Wp4EfWUS68o90KiLAru-60" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;×&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="uhNlgwCyZQxp5CcIoFXW-1">
+                    <mxGeometry x="538.5" y="1524" width="24" height="24" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="IYTgnPNhEnDXd-kvsFkH" name="test画面遷移図">
+        <mxGraphModel dx="875" dy="541" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -161,105 +447,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram name="画面遷移図（改定）" id="Y6SmTIdjsBZqxDXbcUv5">
-        <mxGraphModel dx="718" dy="541" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="7epfC_u378TQVlsX-LNO-0"/>
-                <mxCell id="7epfC_u378TQVlsX-LNO-1" parent="7epfC_u378TQVlsX-LNO-0"/>
-                <mxCell id="7epfC_u378TQVlsX-LNO-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="103" y="536" width="612" height="396" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="106" y="104" width="612" height="396" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-4" value="トップページ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="112" y="113" width="198" height="45" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-5" value="新規学習記録ページ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="112" y="545" width="288" height="45" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-6" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="130" y="167" width="261" height="243" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="427" y="167" width="261" height="243" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-8" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;セクション[目標・達成確認]&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="427" y="167" width="261" height="45" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-9" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;テーブル[学習記録一覧]&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="130" y="167" width="261" height="45" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;日付&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="170.5" y="212" width="180" height="36" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;学習内容&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="170.5" y="257" width="180" height="36" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-12" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;気付き&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="170.5" y="302" width="180" height="36" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-13" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;目標進捗&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="170.5" y="351.5" width="180" height="36" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-14" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;目標名&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="467.5" y="212" width="180" height="45" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-15" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;達成率&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="467.5" y="279.5" width="180" height="45" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;進捗グラフ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="467.5" y="347" width="180" height="45" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7epfC_u378TQVlsX-LNO-1" source="7epfC_u378TQVlsX-LNO-18" target="7epfC_u378TQVlsX-LNO-2">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-18" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ボタン[新規学習&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;登録]&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="265" y="419" width="288" height="72" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[日付入力]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="175" y="590" width="468" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[学習内容入力]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="175" y="644" width="468" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[目標進捗入力]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="175" y="752" width="468" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[気付き入力]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="175" y="698" width="468" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-23" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7epfC_u378TQVlsX-LNO-1" source="7epfC_u378TQVlsX-LNO-24" target="7epfC_u378TQVlsX-LNO-3">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="67" y="869"/>
-                            <mxPoint x="67" y="302"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-24" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ボタン[登録&lt;/font&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px; background-color: transparent;&quot;&gt;]&lt;br&gt;(トップページ)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="175" y="815" width="225" height="99" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-25" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.005;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7epfC_u378TQVlsX-LNO-1" source="7epfC_u378TQVlsX-LNO-26" target="7epfC_u378TQVlsX-LNO-3">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="751" y="865" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="751" y="869"/>
-                            <mxPoint x="751" y="293"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-26" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ボタン&lt;br&gt;[トップページ]&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="418" y="815" width="225" height="99" as="geometry"/>
-                </mxCell>
-                <mxCell id="7epfC_u378TQVlsX-LNO-27" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;Learning Habit Tracker 画面遷移図&lt;/b&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="7epfC_u378TQVlsX-LNO-1">
-                    <mxGeometry x="144" y="18" width="540" height="63" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram name="画面デザイン案" id="9tDdgTR6qJhFr-yHfBrJ">
-        <mxGraphModel dx="718" dy="541" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <diagram name="test画面デザイン案" id="9tDdgTR6qJhFr-yHfBrJ">
+        <mxGraphModel dx="875" dy="541" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="tCQPO3IPUZD04XrZeIMv-0"/>
                 <mxCell id="tCQPO3IPUZD04XrZeIMv-1" parent="tCQPO3IPUZD04XrZeIMv-0"/>
@@ -408,150 +597,153 @@
         </mxGraphModel>
     </diagram>
     <diagram name="画面デザイン案（改定）" id="pfr4O7fdv9wuNJRbeARe">
-        <mxGraphModel dx="718" dy="541" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="875" dy="541" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="o-p0E9jTA6rh-ffuaakO-0"/>
                 <mxCell id="o-p0E9jTA6rh-ffuaakO-1" parent="o-p0E9jTA6rh-ffuaakO-0"/>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-2" value="" style="whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="107" y="145" width="612" height="717" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-3" value="" style="whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="107" y="936" width="612" height="594" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-4" value="Learning Habit Tracker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-4" value="Learning Habit Tracker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="247" y="91" width="324" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-5" value="新規学習記録ページ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-5" value="新規学習記録ページ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="113" y="942" width="288" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-6" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-6" value="" style="whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="126" y="235" width="577" height="172" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-7" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;テーブル[学習記録一覧]&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-7" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;テーブル[学習記録一覧]&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="126" y="234" width="215.5" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;日付&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;日付&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="141" y="276" width="137" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ボタン[新規学習&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;登録]&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ボタン[新規学習&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;登録]&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="189" y="730" width="450" height="99" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;YYYY / MM / DD&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;YYYY / MM / DD&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="179" y="1041" width="468" height="43" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-11" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ボタン[登録&lt;/font&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px; background-color: transparent;&quot;&gt;]&lt;br&gt;(トップページ)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-11" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ボタン[登録&lt;/font&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px; background-color: transparent;&quot;&gt;]&lt;br&gt;(トップページ)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="396" y="1395" width="251" height="108" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ボタン&lt;br&gt;[トップページ]&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ボタン&lt;br&gt;[トップページ]&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="179" y="1440" width="135" height="63" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-13" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;Learning Habit Tracker 画面デザイン案&lt;/b&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-13" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;Learning Habit Tracker 画面デザイン案&lt;/b&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="144" y="18" width="540" height="63" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-14" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-14" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="141" y="312" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-15" value="トップページ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-15" value="トップページ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="114" y="152" width="198" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;学習内容&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;学習内容&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="278" y="276" width="135" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-17" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;気付き&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-17" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;気付き&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="414" y="276" width="135" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;目標進捗&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;目標進捗&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="550" y="276" width="135" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-19" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-19" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="141" y="338" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-20" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-20" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="141" y="364" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;学習内容&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;学習内容&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="278" y="276" width="137" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-22" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-22" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="278" y="312" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-23" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-23" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="278" y="338" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-24" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-24" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="278" y="364" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;気付き&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;気付き&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="414" y="276" width="137" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-26" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-26" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="414" y="312" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-27" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;学習内容&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-27" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;学習内容&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="551" y="276" width="135" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-28" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-28" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="414" y="338" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-29" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-29" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="414" y="364" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-30" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;目標進捗&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-30" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;目標進捗&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="551" y="276" width="137" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-31" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-31" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="551" y="312" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-32" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-32" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="551" y="338" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-33" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-33" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;※アーカイブ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="551" y="364" width="137" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-34" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-34" value="" style="whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="126" y="457" width="577" height="238" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-35" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;セクショ&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px; background-color: light-dark(rgb(251, 251, 251), rgb(21, 21, 21));&quot;&gt;ン[学習記録一覧]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-35" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;セクショ&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 20px; background-color: light-dark(rgb(251, 251, 251), rgb(21, 21, 21));&quot;&gt;ン[学習記録一覧]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="126" y="458" width="234.5" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-36" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;目標名&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-36" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;目標名&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="142" y="497" width="184" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-37" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 15px;&quot;&gt;※目標率の枠&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-37" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 15px;&quot;&gt;※目標率の枠&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="142" y="542" width="184" height="134" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-38" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;達成率&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-38" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;達成率&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="325" y="497" width="183" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-39" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 15px;&quot;&gt;※達成率の枠&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-39" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 15px;&quot;&gt;※達成率の枠&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="325" y="542" width="183" height="134" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-40" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;進捗グラフ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-40" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;進捗グラフ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="508" y="497" width="184" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-41" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;※進捗グラフの枠&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-41" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;※進捗グラフの枠&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="508" y="542" width="184" height="134" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-42" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[日付]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-42" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[日付]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="179" y="1005" width="171" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-43" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;※学習内容の記入&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-43" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;※学習内容の記入&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="179" y="1132" width="468" height="43" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-44" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[学習内容]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-44" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[学習内容]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="178.5" y="1096" width="207" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;※気付きの入力&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;※気付きの入力&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="179" y="1228" width="468" height="43" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-46" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[気付き]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-46" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[気付き]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="178" y="1192" width="189" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-47" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;※目標進捗の入力&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-47" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;※目標進捗の入力&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="179" y="1319" width="468" height="43" as="geometry"/>
                 </mxCell>
-                <mxCell id="o-p0E9jTA6rh-ffuaakO-48" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[目標進捗]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                <mxCell id="o-p0E9jTA6rh-ffuaakO-48" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入力フォーム[目標進捗]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="o-p0E9jTA6rh-ffuaakO-1" vertex="1">
                     <mxGeometry x="179" y="1283" width="207" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="xbzARbM5L5CokxkGNi58-0" value="11/14 改定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o-p0E9jTA6rh-ffuaakO-1">
+                    <mxGeometry x="684" y="54" width="81" height="27" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
