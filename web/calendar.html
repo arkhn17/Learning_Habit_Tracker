@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学習カレンダー</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>学習カレンダー</h1>
+    </header>
+    
+    <main>
+        <!-- カレンダー -->
+        <section class="calendar-container">
+            <div class="calendar-header">
+                <button id="prevMonth">◀</button>
+                <h2 id="currentMonth"></h2>
+                <button id="nextMonth">▶</button>
+            </div>
+
+            <table class="calendar-table">
+                <thead>
+                    <tr>
+                        <th>日</th>
+                        <th>月</th>
+                        <th>火</th>
+                        <th>水</th>
+                        <th>木</th>
+                        <th>金</th>
+                        <th>土</th>
+                    </tr>
+                </thead>
+                <tbody id="calendarBody"> <!-- jSで日付を入れる --> </tbody>
+            </table>
+        </section>
+        
+        <!-- 学習記録モーダル -->
+        <div id="calendar-modal" class="modal">
+            <div class="modal-content">
+                <span id="calendar-close-modal" class="close">&times;</span> <!-- モーダルを閉じるボタン -->
+                <h3>学習を記録</h3>
+
+                <label>学習内容（1行）</label>
+                <input type="text" id="calendar-input-content"> <!-- 学習内容入力欄 -->
+
+
+                <label>所要時間（分）</label>
+                <input type="number" id="calendar-input-time"> <!-- 所要時間入力欄 -->
+                        
+                
+                <label>気付き／感想（任意）</label>
+                <textarea id="calendar-input-note"></textarea> <!-- 気付き／感想入力欄 -->
+                
+                <button id="calendar-save-record">保存</button> <!-- 保存ボタン -->
+                
+                <p id="calendar-error-msg" class="error"></p> <!-- 入力エラー表示 -->
+            </div>
+        </div>
+
+    <!-- 下部リスト表示エリア -->
+    <section class="records-container">
+        <h3 id="selectedDate">選択日：</h3>
+        <ul id="date-record-list"></ul>
+    </section>
+    </main>
+
+    <script src="js/calendar.js"></script>
+</body>
+</html>
