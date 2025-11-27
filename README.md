@@ -35,7 +35,7 @@ Learning_Habit_Tracker/
 ├─ drawio/ # UI構想・画面遷移図（編集用）  
 │ └─ ui構想.drawio  
 │  
-├─ src/ # プログラムソース（Java / backend）  
+├─ src/ # プログラムソース Java / backend （現状は空）  
 │  
 ├─ web/ # HTML/CSS/JS  
 │ ├─ index.html  
