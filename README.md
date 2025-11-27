@@ -24,29 +24,29 @@
 
 ## ディレクトリ構成
 
-Learning_Habit_Tracker/
-├─ db/ # 学習データ格納用（現状は空）
-│
-├─ docs/ # 設計書類、仕様書
-│ ├─ 企画書骨子.md
-│ ├─ UI構想.md
-│ └─ 画面遷移図.md
-│
-├─ drawio/ # UI構想・画面遷移図（編集用）
-│ └─ ui構想.drawio
-│
-├─ src/ # プログラムソース（Java / backend）
-│
-├─ web/ # HTML/CSS/JS
-│ ├─ index.html
-│ ├─ calendar.html
-│ ├─ css/
-│ │ └─ style.css
-│ └─ js/
-│ ├─ script.js
-│ └─ calendar.js
-│
-└─ README.md
+Learning_Habit_Tracker/  
+├─ db/ # 学習データ格納用（現状は空）  
+│  
+├─ docs/ # 設計書類、仕様書  
+│ ├─ 企画書骨子.md  
+│ ├─ UI構想.md  
+│ └─ 画面遷移図.md  
+│  
+├─ drawio/ # UI構想・画面遷移図（編集用）  
+│ └─ ui構想.drawio  
+│  
+├─ src/ # プログラムソース（Java / backend）  
+│  
+├─ web/ # HTML/CSS/JS  
+│ ├─ index.html  
+│ ├─ calendar.html  
+│ ├─ css/  
+│ │ └─ style.css  
+│ └─ js/  
+│ ├─ script.js  
+│ └─ calendar.js  
+│  
+└─ README.md  
 
 ---
 
