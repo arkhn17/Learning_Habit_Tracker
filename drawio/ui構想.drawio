@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="04gcsO-vSwVj2xZ_8O_V" name="１．UI構想">
-        <mxGraphModel dx="889" dy="559" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1193" dy="715" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -44,7 +44,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="２．操作遷移図" id="Y6SmTIdjsBZqxDXbcUv5">
-        <mxGraphModel dx="1600" dy="978" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1193" dy="715" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="7epfC_u378TQVlsX-LNO-0"/>
                 <mxCell id="7epfC_u378TQVlsX-LNO-1" parent="7epfC_u378TQVlsX-LNO-0"/>
@@ -70,7 +70,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="３．ワイヤーフレーム" id="26W2ai-A06YxMU9y8_2e">
-        <mxGraphModel dx="875" dy="978" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1193" dy="715" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="uhNlgwCyZQxp5CcIoFXW-0"/>
                 <mxCell id="uhNlgwCyZQxp5CcIoFXW-1" parent="uhNlgwCyZQxp5CcIoFXW-0"/>
@@ -354,7 +354,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="４．画面デザイン案" id="p41JCClAj3_3ZZ-rQIM-">
-        <mxGraphModel dx="875" dy="978" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1193" dy="715" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="XKYnfv9JAotGI2_RNnCB-0"/>
                 <mxCell id="XKYnfv9JAotGI2_RNnCB-1" parent="XKYnfv9JAotGI2_RNnCB-0"/>
@@ -638,7 +638,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="IYTgnPNhEnDXd-kvsFkH" name="test画面遷移図">
-        <mxGraphModel dx="875" dy="978" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1193" dy="715" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -735,7 +735,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="test画面デザイン案" id="9tDdgTR6qJhFr-yHfBrJ">
-        <mxGraphModel dx="875" dy="978" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1193" dy="715" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="tCQPO3IPUZD04XrZeIMv-0"/>
                 <mxCell id="tCQPO3IPUZD04XrZeIMv-1" parent="tCQPO3IPUZD04XrZeIMv-0"/>
